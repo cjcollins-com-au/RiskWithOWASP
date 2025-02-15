@@ -7,8 +7,8 @@ The great thing about this is that it provides a structured method of scoring, b
 (Though the final score is taken this way too, which varies from the typical approach of multipling the likeiihood and impact values).
 
 It can also be customised.  For example:
-* Some people think the Skill rating list should be the other way around.
-* For privacy violation, maybe your organisation doesn't have millions of customers and wants to set these values more appropriately.
+* Some people think the **Skill** rating list should be the other way around.
+* For **Privacy Violation** scores, maybe your organisation doesn't have millions of customers and wants to set these values more appropriately.
 * I've changed the formula for business impact so that a financial rating of 9 (bankruptcy) will always take precedence.
 * You could exclude certain values, add others, change descriptions to suit your organisation.
 
@@ -16,5 +16,10 @@ An advantage to this approach is that it helps take some of the guesswork and pe
 
 For example, an asset owner might regard impact on their own assets as '9' (and perhaps other asset owners disagree) but with the OWASP approach everything is worked through with respect to the organisation.  This helps remove that bias and helps everyone understand where the assets site 
 
+## Instructions
+*See 'Instructions' worksheet in the workbook for up to date information*
 
+* Populate the Assets and Stakeholders sheets *these are used for selection in the **Risk** sheet*
+* In the **Risk** sheet - Enter your risk id and description, and select the Asset name.  Repeat as needed.
+* 
 
