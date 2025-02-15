@@ -19,7 +19,17 @@ For example, an asset owner might regard impact on their own assets as '9' (and 
 ## Instructions
 *See 'Instructions' worksheet in the workbook for up to date information*
 
-* Populate the Assets and Stakeholders sheets *these are used for selection in the **Risk** sheet*
+* Populate the **Assets** and **Stakeholders** sheets *-these are used for selection in the **Risk** sheet*
 * In the **Risk** sheet - Enter your risk id and description, and select the Asset name.  Repeat as needed.
-* 
+* In the **AssessInherent** sheet - assign values against this risk as needed for the *inherent risk*.  The totals will update automatically back in the *Risk* sheet.
 
+## #When risk treatments have been decided:
+* In the **Risk** sheet - Update all the treatment details options and enter any relevant notes.  Repeat as needed.
+* In the **AssessResidual** sheet - assign values against each risk as needed now for the *residual risk*.  The totals will update automatically back in the **Risk** sheet.
+
+## To Customise:
+* the lookup tables for the Assesment sheets and criteria are located in the lkOWASPRA sheet
+* Note that OWASP's formula is simply to average all the scores to form the final score (!)
+* The main formulae for this are in columns H, M, S, X in **AssessInherent** and I, N, T, Y in **AssessResidual**
+* You could consider weighting certain columns, e.g. I have updated the 'Business Impact Score' to give precedence to high financial impact values
+* (and sorry about all the LEFT commands in the formulae :) I wanted something to play nice with the drop down lists)
