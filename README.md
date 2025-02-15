@@ -14,7 +14,7 @@ It can also be customised.  For example:
 
 An advantage to this approach is that it helps take some of the guesswork and perhaps some bias out of the process.  Results may be more consistent if repeated.
 
-For example, an asset owner might regard impact on their own assets as '9' (and perhaps other asset owners disagree) but with the OWASP approach everything is worked through with respect to the organisation.  This helps remove that bias and helps everyone understand where the assets site.
+For example, an asset owner might regard impact on their own assets as '9', and perhaps other asset owners disagree (and vice versa).  With the OWASP approach, the business impact and technical impact values are always worked through with respect to the organisation and assets.  This helps remove that bias and helps everyone understand where the assets site.
 
 
 
