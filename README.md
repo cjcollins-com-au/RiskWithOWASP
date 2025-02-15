@@ -7,10 +7,10 @@ The great thing about this is that it provides a structured method of scoring, b
 *Note - the final score uses this approach too, not just the likelihood and impact scores; this varies from the typical approach of multipling the likeiihood and impact values to get the risk score.*
 
 It can also be customised.  For example:
-* Some people think the **Skill** rating list should be the other way around.
-* For **Privacy Violation** scores, maybe your organisation doesn't have millions of customers and wants to set these values more appropriately.
-* YOu could change the formaulae to provide more weighting to certain criteria
-* I've changed the formula for business impact so that a financial rating of 9 (bankruptcy) will always take precedence.
+* Some people think the **Skill** rating list should be the other way around.  In the attached just change this in the **lkOWASPRA** sheet.
+* For **Privacy Violation** scores, maybe your organisation doesn't have millions of customers and wants to set these values more appropriately (**lkOWASPRA** sheet again).
+* You could change the formaulae to provide more weighting to certain criteria...
+* ... eg. I've changed the formula for business impact so that a financial rating of 9 (bankruptcy) will always take precedence.
 * You could exclude certain values, add others, change descriptions to suit your organisation.
 
 An advantage to this approach is that it helps take some of the guesswork and perhaps some bias out of the process.  Results may be more consistent if repeated.
