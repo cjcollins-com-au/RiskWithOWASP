@@ -4,7 +4,7 @@ Opinions vary on the usage of the OWASP risk scoring, but I noted the inclusion 
 
 The great thing about this is that it provides a structured method of scoring, based on a set of 16 criteria and simply applying an average to the scores.
 
-*Note - the final score uses this approach too not just the likelihood and impact scores; this varies from the typical approach of multipling the likeiihood and impact values to get the risk score.
+*Note - the final score uses this approach too, not just the likelihood and impact scores; this varies from the typical approach of multipling the likeiihood and impact values to get the risk score.*
 
 It can also be customised.  For example:
 * Some people think the **Skill** rating list should be the other way around.
